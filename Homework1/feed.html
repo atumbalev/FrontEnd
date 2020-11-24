@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="feed.css" />
+    <title>Flutter</title>
+</head>
+<body>
+    <div class="root">
+        <header class="main-header">
+            <h1>Flutter</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search" />
+                <!-- I cant get it to align inisde the text box -->
+                <!-- <img src="images/search-solid.svg" alt="search"> -->
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <aside class="side-content">
+                    <div class="profile">
+                        <div class="profile-content">
+                            <img src="images/avatar.png"/>
+                            <label class="username">Atanas Tumbalev</label>
+                        </div>
+                        <div class="options">
+                            <div class="statisitcs">
+                                <div class="statisitcs-entry">
+                                    <label class="label-gray">Posts</label>
+                                    <label class="label-turquoise">69</label>
+                                </div>
+                                <div class="statisitcs-entry">
+                                    <label class="label-gray">Reactions</label>
+                                    <label class="label-turquoise">420</label>
+                                </div>
+                            </div>
+                            <button onclick="location.href='login.html'">Log out</button>
+                        </div>
+                    </div>
+                </aside>
+                <div class="feed">
+                    <div class="new-post">
+                        <img src="images/avatar.png"/>
+                        <div class="text-box">
+                            <input placeholder="Say something">
+                            <!-- I cant get it to align inisde the text box -->
+                            <!-- <img src="images/comment-regular.svg" alt="search"> -->
+                        </div>
+                    </div>
+                    <ul class="posts-list">
+                        <li class="post">
+                            <img class="post-avatar" alt="profile picture" src="images/avatar.png">
+                            <div class="post-content">
+                                <div class="post-top-row">
+                                    <div class="post-left">
+                                        <label class="post-username">Atanas Tumbalev</label>
+                                        <span class="dot"></span>
+                                        <label class="post-timestamp">0 seconds ago</label>
+                                    </div>
+                                    <img class="post-close" src="images/times-solid.svg" alt='X'>
+                                </div>
+                                <p class="post-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores ut laudantium excepturi possimus dolorum consequuntur eius vel? Numquam sit nam debitis, odio voluptates error maiores quisquam optio nobis mollitia?</p>
+                                <div class="post-likes">
+                                    <div class="post-like-grp">
+                                        <img class="post-like-icon" src="images/thumbs-up-regular.svg" alt="like">
+                                        <label class="post-like-count">3</label>
+                                    </div>
+                                    <div class="post-like-grp">
+                                        <img class="post-dislike-icon" src="images/thumbs-down-regular.svg" alt="dislike">
+                                        <label class="post-dislike-counter">0</label>
+                                    </div>
+                            </div>
+                        </li>
+                        <li class="post">
+                            <img class="post-avatar" alt="profile picture" src="images/avatar.png">
+                            <div class="post-content">
+                                <div class="post-top-row">
+                                    <div class="post-left">
+                                        <label class="post-username">Atanas Tumbalev</label>
+                                        <span class="dot"></span>
+                                        <label class="post-timestamp">Last month</label>
+                                    </div>
+                                    <img class="post-close" src="images/times-solid.svg" alt='X'>
+                                </div>
+                                <p class="post-message">Таратор с настъргани краставици не е таратор!</p>
+                                <div class="post-likes">
+                                    <div class="post-like-grp">
+                                        <img class="post-like-icon" src="images/thumbs-up-regular.svg" alt="like">
+                                        <label class="post-like-count">15</label>
+                                    </div>
+                                    <div class="post-like-grp">
+                                        <img class="post-dislike-icon" src="images/thumbs-down-regular.svg" alt="dislike">
+                                        <label class="post-dislike-counter">4</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
